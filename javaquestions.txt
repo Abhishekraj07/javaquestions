@@ -1,0 +1,96 @@
+----------------------------------Mock interview Questions--------------------------------
+
+1. What are the feautures of Java?
+2. What is the benfit of interpretation(Compiler & Interpreter) 
+3. Is Java faster than C & C++ - No its is not
+4. Security of Java- When u download a jar file it will never harm ur computer and moreover there is a security manager which when properly enhanced it will ensure high security.
+
+5. Features of OOP
+6. Functions can be called without an object but method always belongs to a class.
+7. What is the raltion between encapsulation and abstraction
+8. Can overloading happen bewteen parent and child - Parent has a method which child overrides and then there is another child which overloads the corresponding method
+9. Do private members get inherited - No it doesnt
+10. Use of inheritance
+11. Wat are different scopes? - default, private, public, protected (private>default>protected>public)
+12. Is it valid to write System.out.println in the increment or decrement part of for loop - Yes 
+13. {break;} - Is it valid- No it is not valid
+14. char,byte,short,int and from jdk 1.7 even string can be used inside switch switch(variable) but long is not allowed
+15. forEach was introduced from jdk 1.5(Annotation,forEach,ArrayList,Nio.1,variable arguments), 1.6 - Regular Expressions, HashMap, 1.7 - Nio.2(New IO, new classes for IO),String in switch,takes advantage of multi-core hardware ,latest jdk 1.11
+16. Features of all jdk versions
+17. There are atomic long and atomic integer but there is no atomic double or atomic float
+18. What is the parent class of Exception- Throwable
+19. Difference between checked and unchecked exception? - Checked exception is compile time and unchecked is runtime
+20. For testing purpose we use unchecked exceptions 
+21. Error are virtual machine errors while exceptions are related to program.
+22. Why are custom exceptions used- reduction in complexity.
+23. Is getting null pointer exception good?- Because developer is not instanting the object
+24. Why is collection required? - provides a dynamic option to array while having the O(1) time complexity for retrieving the elements, menory leak problem is avoided using collections
+25. What are different types of collection - List, Sets, 
+26. Wat are features of list? - it allows duplicate values (Vector,ArrayList,LinkedList,Queue)
+27. Wat is the difference between ArrayList and LinedList? -  ArrayList is a growing and shrinking array
+28. How is linkedlist internally arranged - it is a doubly linked list, linked list implements queue interface and list interface
+29. Whenever we require high volatility then we use linked list.
+30. If we do not implement has code and equals then it allows duplicate value in hashSet.
+31. For a railway reservation center which collection can we use - LinkedList coz there is multple insertion and deletion
+32. Suppose we donont implement comparable or comparator in treeset then it will throw class cast exception.
+33. When we need a customized sorting we use a comparator, else when a default sorting is required we use comparable.
+34. Which algorithm tree set implements? - RedBlack trees
+
+
+
+
+
+what is wora - write once run anywhere
+features of java?
+answer:
+	what is portability - architecture neutral(like phone,pc,tablet)
+	what is platform independence - platforms(on which code,softwares runs like code on operating system.games on engines)
+	multi threading
+	network savy
+	secure
+	robust
+
+what is interpretation
+what is benefit of interpretation
+
+java is slower than c,c++
+
+(just in time ) hotspot compiler
+
+
+abstraction
+encapsulation 
+polymorphmism
+	-> overloading
+	-> overriding
+
+
+relation between abstraction and encapsultion
+
+overloading between parent and child
+
+do private members get inherited - no
+
+why extend a class - avoids creating multiple objects
+
+for loops require same data type if more than one variable is required
+
+static import?
+
+multithreading datatypes: atomic integer, atomic double
+
+exception parent class is throwable
+
+error vs exception
+
+
+
+
+
+
+
+
+features in releases
+NIO: new IO =>1.5
+
+binary pattern storage =>1.7
